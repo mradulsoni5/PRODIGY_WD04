@@ -1,0 +1,77 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 2rem;
+    color: #333;
+}
+
+.weather-info {
+    display: none;
+    margin-bottom: 20px;
+}
+
+.loading {
+    display: block;
+    font-size: 1.2rem;
+    color: #888;
+}
+
+#temperature {
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+#condition {
+    font-size: 1.2rem;
+    color: #666;
+}
+
+footer {
+    font-size: 0.8rem;
+    color: #777;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 1.6rem;
+    }
+
+    #temperature {
+        font-size: 2.5rem;
+    }
+
+    #condition {
+        font-size: 1rem;
+    }
+}
